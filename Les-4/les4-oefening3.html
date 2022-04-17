@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gebruikers registreren</title>
+</head>
+<body>
+    <form action="gebruiker_registreren.php" method="GET">
+            <fieldset>
+                <legend>Geslacht</legend>
+                <div>
+                    <label for="Man"> Man
+                    <input type="radio" name="gender" id="Man" value="man"></label>
+
+                    <label for="Vrouw"> Vrouw
+                    <input type="radio" name="gender" id="Vrouw" value="Vrouw"></label>
+
+                    <label for="Ander"> Ander
+                    <input type="radio" name="gender" id="Ander" value="Ander"></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Kleur ogen</legend><!--bruin groen blauw grijs -->
+                <div>
+                    <label for="bruin"> Bruin 
+                        <input type="radio" name="Kleur" id="bruin" value="bruin"></label>
+
+                    <label for="groen"> Groen  
+                        <input type="radio" name="Kleur" id="groen" value="groen"></label>
+
+                    <label for="blauw"> Blauw  
+                        <input type="radio" name="Kleur" id="blauw" value="blauw"></label>
+
+                    <label for="grijs"> Grijs  
+                        <input type="radio" name="Kleur" id="grijs" value="grijs"></label>
+                </div>
+            </fieldset>
+            <div> <input type="submit" value="Registreren"></div>
+
+
+
+    </form>
+</body>
+</html>

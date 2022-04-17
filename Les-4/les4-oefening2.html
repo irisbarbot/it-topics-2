@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulier</title>
+</head>
+<body>
+    <form action="registreren.php" method="get">
+        <div>
+            <label for="voornaam"> Voornaam: <input type="text" name="voornaam" id="voornaam" placeholder="Stijn"></label>
+        </div>
+        <div>
+            <label for="familienaam"> Familienaam: <input type="text" name="familienaam" id="familienaam" placeholder="Lenaerts"></label>
+        </div>
+        <div>
+            <label for="gebruikersnaam"> Gebruikersnaam:
+            <input type="email" name="gebruikersnaam" id="gebruikersnaam" placeholder="mail@thomasmore.be" required> 
+            </label>
+        </div>
+        <div>
+            <label for="nickname"> Nickname: <input type="text" name="nickname" id="nickname"></label>
+        </div>
+        <div>
+            <label for="paswoord"> Paswoord: <input type="password" name="paswoord" id="paswoord" required minlength="5" maxlength="15"></label>
+        </div>
+        <div>
+            <label for="herhaalpaswoord"> Herhaal paswoord: <input type="password" name="herhaalpaswoord" id="herhaalpaswoord" required minlength="5" maxlength="15"></label>
+        </div>
+        <div>
+            <input type="submit" value="Registreren">
+        </div>
+    </form>
+</body>
+</html>
